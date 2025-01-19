@@ -1,0 +1,59 @@
+{
+    "name": "whitehouse-42069",
+    "version": "1776.0.0",
+    "description": "Making American AI Great Again! The most tremendous AI framework ever built!",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc --tremendous",
+      "test": "jest --detectFakeNews",
+      "wall": "node scripts/build-wall.js",
+      "covfefe": "node scripts/generate-covfefe.js",
+      "tweet": "ts-node scripts/random-caps-tweet.ts",
+      "election": "ts-node scripts/count-votes.ts --recountUntilWin"
+    },
+    "keywords": [
+      "trump",
+      "ai",
+      "covfefe",
+      "tremendous",
+      "wall",
+      "bigly",
+      "yuuuge",
+      "maga",
+      "alternative-facts",
+      "fake-news-detector"
+    ],
+    "author": "Bigly AI Team",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bigly-ai/whitehouse-42069"
+    },
+    "dependencies": {
+      "alternative-facts": "^1776.0.0",
+      "covfefe-generator": "^3.0.0",
+      "tremendous-transformer": "^2024.0.0",
+      "wall-builder": "^∞.0.0",
+      "electoral-math": "^2020.0.0",
+      "fake-news-detector": "^1984.0.0"
+    },
+    "devDependencies": {
+      "@types/tremendous": "^1776.0.0",
+      "@types/covfefe": "^3.0.0",
+      "typescript": "^5.0.0",
+      "jest": "^29.0.0",
+      "ts-jest": "^29.0.0",
+      "eslint-config-tremendous": "^1.0.0"
+    },
+    "engines": {
+      "node": ">=1776.0.0"
+    },
+    "funding": {
+      "type": "mexico",
+      "url": "https://mexico.will.pay.for.it"
+    },
+    "tremendous": true,
+    "covfefeLevel": "maximum",
+    "wallHeight": "infinity"
+  }

@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "es2024",
+      "module": "commonjs",
+      "lib": ["es2024", "dom"],
+      "declaration": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "baseUrl": ".",
+      "paths": {
+        "@bigly/*": ["src/bigly-ai/*"],
+        "@modules/*": ["src/modules/*"],
+        "@utils/*": ["src/utils/*"]
+      }
+    },
+    "include": ["src/**/*", "src/types/**/*"],
+    "exclude": ["node_modules", "dist", "tests"],
+    "tremendousOptions": {
+      "capsLock": true,
+      "exclamationPoints": "infinite",
+      "truthfulness": "alternative"
+    }
+  }
